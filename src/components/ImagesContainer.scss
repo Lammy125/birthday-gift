@@ -20,18 +20,16 @@
     padding: 2rem 3rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
 
     .imgDiv {
       display: flex;
-      justify-content: space-between;
       gap: 1rem;
       flex-direction: column;
     }
 
     .img {
-      width: 386px;
-      height: 570px;
+      width: 303px;
+      height: 530px;
     }
   }
 }

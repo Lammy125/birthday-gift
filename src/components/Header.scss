@@ -39,11 +39,11 @@
 
     .navBar {
       display: flex;
-      justify-content: space-between;
+      gap: 2.3rem;
 
       .iconDiv {
         display: flex;
-        gap: 1rem;
+        gap: 0.5rem;
       }
     }
   }
