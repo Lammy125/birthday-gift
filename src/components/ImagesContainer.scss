@@ -15,9 +15,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .imageContainer {
-    padding: 2rem 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
 
@@ -28,7 +28,7 @@
     }
 
     .img {
-      width: 303px;
+      width: 295px;
       height: 530px;
     }
   }

@@ -30,11 +30,11 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .header {
     display: flex;
     flex-direction: column;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     text-align: center;
 
     .navBar {
@@ -43,7 +43,7 @@
 
       .iconDiv {
         display: flex;
-        gap: 0.5rem;
+        gap: 0.3rem;
       }
     }
   }
