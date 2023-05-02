@@ -1,0 +1,37 @@
+.imageContainer {
+  padding: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .imgDiv {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .img {
+    width: 430px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .imageContainer {
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .imgDiv {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-direction: column;
+    }
+
+    .img {
+      width: 386px;
+      height: 570px;
+    }
+  }
+}
